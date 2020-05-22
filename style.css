@@ -1,0 +1,381 @@
+@font-face {
+    font-family: Manrope-Regular;
+    src: url('Manrope-Regular.ttf');
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    color: #222;
+}
+
+.navbar {
+    padding: 3px !important;
+}
+
+.navbar-img {
+    box-shadow: 4px 4px rgb(185, 180, 180);
+}
+
+.navbar-img:hover {
+    width: 162px !important;
+}
+
+.navbar-nav li {
+    padding-right: 20px !important;
+}
+
+.nav-link {
+    font-size: 18px !important;
+    text-shadow: 2px 2px 5px rgb(228, 219, 219);
+}
+
+.navbar-toggler {
+    box-shadow: 0px 2px 3px rgb(180, 172, 172);
+    margin-right: 20px;
+}
+
+.navbar-toggler:hover {
+    background-color: rgb(255, 240, 240) !important;
+}
+
+.carousel-inner {
+    width: 100%;
+    height: 100%;
+}
+
+.w-100 {
+    max-height: 770px !important;
+}
+
+.jumbotron {
+    text-align: center !important;
+    line-height: 40px;
+    word-spacing: 2px;
+    text-shadow: 2px 2px 5px rgb(209, 198, 198);
+    margin-bottom: 0px !important;
+}
+
+.padding {
+    padding-bottom: 43px;
+}
+
+.welcome {
+    width: 75%;
+    margin: 0 auto !important;
+    padding-top: 32px !important;
+    line-height: 100px !important;
+    text-align: center !important;
+    color: white;
+}
+
+#background-img {
+    background-image: url(Images/background.jpg) !important;
+    background-size: cover !important;
+    background-attachment: fixed !important;
+    background-color: teal;
+    background-position: center !important;
+    height: cover;
+    width: cover;
+}
+
+.welcome hr {
+    border-top: 2px solid #f7f1f1;
+    width: 100%;
+}
+
+.welcome-hr {
+    margin-top: -8px;
+}
+
+.royal-tea {
+    line-height: 130px !important;
+}
+
+.box-logo:hover {
+    width: 320px;
+    cursor: pointer;
+}
+
+.box h2 {
+    font-size: 60px;
+}
+
+.box hr {
+    border-top: 2px solid #b4b4b4;
+    width: 55%;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+
+.box p {
+    font-size: 18px;
+}
+
+.padding-one {
+    padding-bottom: 100px !important;
+}
+
+#box {
+    max-width: 600px;
+    min-width: 350px;
+    max-height: 340px;
+    min-height: 250px;
+    padding-top: 20px;
+    padding: 40px;
+    margin: auto;
+}
+
+#box-two {
+    max-width: 600px;
+    min-width: 350px;
+    padding: 40px;
+    margin: auto;
+    max-height: 340px;
+    min-height: 250px;
+}
+
+#box,
+#box-two {
+    border-radius: 10px;
+    border: 1.3px solid rgb(209, 196, 196);
+    box-shadow: 1px 2px 3px rgb(143, 134, 134);
+}
+
+#box-two:hover {
+    box-shadow: 5px 6px 5px rgb(143, 134, 134);
+    border: 2px solid rgb(209, 196, 196);
+    cursor: pointer;
+}
+
+#box:hover {
+    box-shadow: 5px 6px 5px rgb(143, 134, 134);
+    border: 2px solid rgb(209, 196, 196);
+    cursor: pointer;
+}
+
+#background-two {
+    background-image: url(Images/tea_three.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: auto;
+    padding-top: 300px !important;
+    padding-bottom: 300px !important;
+}
+
+#col-section {
+    background-color: white !important;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 20px;
+    border: 2px solid white;
+    border-radius: 10px;
+    height: auto;
+}
+
+.two-col-section {
+    margin-left: 15px;
+    margin-right: 10px;
+}
+
+.two-col-section h2 {
+    font-size: 45px;
+}
+
+.two-col-section p {
+    text-align: justify;
+}
+
+.two-col-section a {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.background-4 {
+    background-image: url(Images/background2.jpg) !important;
+    background-attachment: fixed !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-color: black !important;
+    width: 100%;
+    max-height: 1700px;
+    min-height: 700px;
+}
+
+.shop-now h1 {
+    font-size: 70px !important;
+}
+
+.shop-now hr {
+    border-top: 2px solid #b4b4b4;
+    width: 35%;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding-bottom: 40px;
+}
+
+.connect {
+    font-size: 50px;
+}
+
+.hr-connect {
+    border: 1px solid rgb(235, 227, 227) !important;
+    width: 50%;
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.social a {
+    font-size: 70px;
+    padding: 40px;
+}
+
+.fa-facebook {
+    color: rgba(17, 17, 131, 0.685);
+}
+
+.fa-instagram {
+    color: #517fa4;
+}
+
+.fa-google-plus-g {
+    color: rgba(199, 5, 5, 0.932);
+}
+
+.fa-twitter {
+    color: rgb(20, 175, 236);
+}
+
+.fa-youtube {
+    color: red;
+}
+
+.fa-facebook:hover,
+.fa-instagram:hover,
+.fa-google-plus-g:hover,
+.fa-google-plus-g:hover,
+.fa-twitter:hover,
+.fa-youtube:hover {
+    font-size: 75px;
+}
+
+footer {
+    background-color: #3f3f3f;
+    color: #ebe9e9 !important;
+    padding-top: 50px !important;
+}
+
+hr.light {
+    border-top: 1px solid #e6e5e5 !important;
+    width: 75%;
+    margin-top: 0.8rem !important;
+    margin-bottom: 1rem !important;
+    margin: auto;
+}
+
+.light-last {
+    border-top: 1px solid #fcf2f2 !important;
+    width: 100% !important;
+    margin-top: 0.8rem !important;
+    margin-bottom: 1rem !important;
+    margin: auto;
+}
+
+
+/* Adding Media Queries */
+
+@media only screen and (max-width:1050px) {
+    .social a {
+        font-size: 60px;
+        padding: 30px;
+    }
+}
+
+@media only screen and (max-width:860px) {
+    .nav-link {
+        font-size: 14px !important;
+    }
+    .navbar-nav li {
+        padding-right: 10px !important;
+    }
+    .navbar-img {
+        box-shadow: 3px 3px rgb(185, 180, 180);
+        width: 100px !important;
+    }
+    .box p {
+        font-size: 14px !important;
+    }
+    .two-col-section h2 {
+        font-size: 35px !important;
+    }
+    .shop-now h1 {
+        font-size: 50px !important;
+    }
+    .connect {
+        font-size: 35px !important;
+    }
+    .social a {
+        font-size: 40px !important;
+        padding: 20px !important;
+    }
+    .fa-facebook:hover,
+    .fa-instagram:hover,
+    .fa-google-plus-g:hover,
+    .fa-google-plus-g:hover,
+    .fa-twitter:hover,
+    .fa-youtube:hover {
+        font-size: 45px !important;
+    }
+    footer {
+        font-size: 13px !important;
+    }
+    .box-logo {
+        width: 250px !important;
+    }
+    #box h3 {
+        font-size: 25px !important;
+    }
+    #box-two h3 {
+        font-size: 25px !important;
+    }
+    .jumbotron-h1 {
+        font-size: 40px !important;
+    }
+    .lead {
+        font-size: 16px !important;
+        font-weight: 500 !important;
+        line-height: 40px;
+    }
+    .display-4 {
+        font-weight: 500 !important;
+        line-height: 40px;
+    }
+    .txt-shop-now {
+        font-weight: 150 !important;
+    }
+    #col-section {
+        padding: 10px !important;
+    }
+    body p {
+        font-size: 14px;
+    }
+    body h1 {
+        font-size: 60px !important;
+    }
+    body h2 {
+        font-size: 40px !important;
+    }
+    body h3 {
+        font-size: 40px !important;
+    }
+    body h4 {
+        font-size: 19px;
+    }
+}
+
+@media only screen and (max-width:620px) {}
